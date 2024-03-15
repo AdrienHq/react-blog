@@ -2,7 +2,7 @@ import React from "react";
 import {useResolvedPath} from 'react-router-dom'
 
 const generatePage = page => {
-    const components = () => require(`./pages/${page}`).default
+    const components = () => require(`./pages${page}`).default
 
     try {
         return React.createElement(components())

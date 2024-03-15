@@ -15,7 +15,6 @@ const navLinks = [
         title: 'Login',
         path: '/login'
     },
-
 ]
 
 export default function Navigation() {

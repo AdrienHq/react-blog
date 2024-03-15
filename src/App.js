@@ -9,7 +9,7 @@ function App() {
             <div className="App">
                 <Navigation/>
                 <Routes>
-                    <Route path="/:page" component={PageRenderer}/>
+                    <Route path="/:page" element={<PageRenderer />}/>
                     <Route path="/" render={() => <Navigate to="/home"/>}/>
                     <Route component={() => 404}/>
                 </Routes>
