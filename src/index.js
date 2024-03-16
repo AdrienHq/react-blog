@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import 'antd/dist/antd.css';
 import '@quasar/extras/ionicons-v4/ionicons-v4.css'
+// import '@quasar/extras/ionicons-v7';
 
 import './assets/scss/base.scss'
 
