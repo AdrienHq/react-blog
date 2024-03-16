@@ -4,10 +4,14 @@ import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom
 import PageRenderer from "./page-renderer";
 
 function App() {
+    const user = {
+        firstName: 'Adrien',
+        lastName: 'Hecq',
+    }
     return (
         <Router>
             <div className="App">
-                <Navigation/>
+                <Navigation user={user}/>
                 <Routes>
                     <Route path="/:page" element={<PageRenderer />}/>
                     <Route path="/" render={() => <Navigate to="/home"/>}/>
