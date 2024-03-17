@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: remove annoying background">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: categories UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/categoryList/CategoryList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryList/CategoryList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/categoryList/categoryList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryList/categoryList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/featured/featured.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/featured.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cardList/CardList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardList/CardList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cardList/cardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardList/cardList.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="17925000" />
+      <workItem from="1710606282476" duration="21094000" />
     </task>
     <task id="LOCAL-00001" summary="update dependencies">
       <option name="closed" value="true" />
@@ -218,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710687984356</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: categories UI">
+      <option name="closed" value="true" />
+      <created>1710689168809</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710689168809</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +245,7 @@
     <MESSAGE value="feat: burger menu for mobile display" />
     <MESSAGE value="feat: featured post" />
     <MESSAGE value="feat: remove annoying background" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: remove annoying background" />
+    <MESSAGE value="feat: categories UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: categories UI" />
   </component>
 </project>
