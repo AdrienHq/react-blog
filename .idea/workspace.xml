@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: footer base">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: base components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cardList/CardList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardList/CardList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/themeToggle" />
       <recent name="$PROJECT_DIR$/src/components/Footer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -89,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="4820000" />
+      <workItem from="1710606282476" duration="11090000" />
     </task>
     <task id="LOCAL-00001" summary="update dependencies">
       <option name="closed" value="true" />
@@ -171,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710669722367</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: base components">
+      <option name="closed" value="true" />
+      <created>1710671259840</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710671259840</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +196,7 @@
     <MESSAGE value="feat: config" />
     <MESSAGE value="feat: navbar base" />
     <MESSAGE value="feat: footer base" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: footer base" />
+    <MESSAGE value="feat: base components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: base components" />
   </component>
 </project>
