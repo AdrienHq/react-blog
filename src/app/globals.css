@@ -21,11 +21,18 @@ a {
     text-decoration: none;
 }
 
-.dark{
+.dark {
     --bg: #0f172a;
     --textcolor: #ddd;
     --softBg: #1f273a;
     --softTextColor: #a6a6ab;
+}
+
+.light {
+    --bg: #D9D9D9;
+    --textcolor: black;
+    --softBg: white;
+    --softTextColor: grey;
 }
 
 .container {
@@ -42,39 +49,39 @@ a {
     padding-right: 80px;
 }
 
-@media screen and (max-width: 1536px)  {
+@media screen and (max-width: 1536px) {
 
-    .wrapper{
+    .wrapper {
         max-width: 1366px;
     }
 }
 
-@media screen and (max-width: 1280px)  {
+@media screen and (max-width: 1280px) {
 
-    .wrapper{
+    .wrapper {
         max-width: 1024px;
     }
 }
 
-@media screen and (max-width: 1024px)  {
+@media screen and (max-width: 1024px) {
 
-    .wrapper{
+    .wrapper {
         max-width: 768px;
         padding-left: 40px;
         padding-right: 40px;
     }
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
 
-    .wrapper{
+    .wrapper {
         max-width: 640px;
     }
 }
 
-@media screen and (max-width: 640px)  {
+@media screen and (max-width: 640px) {
 
-    .wrapper{
+    .wrapper {
         max-width: 475px;
     }
 }
