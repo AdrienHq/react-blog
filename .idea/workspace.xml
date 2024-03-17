@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: dark mode button and style">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: burger menu for mobile display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/authLinks/AuthLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/authLinks/AuthLinks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/authLinks/authLinks.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/authLinks/authLinks.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cardList/cardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardList/cardList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/categoryList/categoryList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryList/categoryList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/featured/Featured.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/Featured.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/featured/featured.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/featured.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagination/pagination.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination/pagination.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="15135000" />
+      <workItem from="1710606282476" duration="16754000" />
     </task>
     <task id="LOCAL-00001" summary="update dependencies">
       <option name="closed" value="true" />
@@ -195,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710677563139</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: burger menu for mobile display">
+      <option name="closed" value="true" />
+      <created>1710684997511</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710684997511</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +223,7 @@
     <MESSAGE value="feat: footer base" />
     <MESSAGE value="feat: base components" />
     <MESSAGE value="feat: dark mode button and style" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: dark mode button and style" />
+    <MESSAGE value="feat: burger menu for mobile display" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: burger menu for mobile display" />
   </component>
 </project>
