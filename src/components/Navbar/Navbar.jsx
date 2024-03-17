@@ -3,7 +3,7 @@ import styles from "./navbar.module.css"
 
 const Navbar = () => {
     return (
-        <div className=''>Navbar</div>
+        <div className={styles.container}>Navbar</div>
     )
 }
 

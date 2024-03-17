@@ -1,13 +1,9 @@
-import styles from "./homepage.module.css";
 import Link from "next/link";
-import Navbar from "@/components/Navbar/Navbar";
-import Footer from "@/components/Footer/Footer";
+import styles from "./homepage.module.css";
 
 export default function Home() {
   return (
       <div>
-        <Navbar/>
-        <Footer/>
       </div>
   )
   
