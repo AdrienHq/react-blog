@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: burger menu for mobile display">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: remove annoying background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cardList/cardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardList/cardList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/categoryList/CategoryList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryList/CategoryList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/categoryList/categoryList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryList/categoryList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/featured/Featured.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/Featured.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/featured/featured.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/featured.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pagination/pagination.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination/pagination.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="16754000" />
+      <workItem from="1710606282476" duration="17925000" />
     </task>
     <task id="LOCAL-00001" summary="update dependencies">
       <option name="closed" value="true" />
@@ -205,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710684997511</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: featured post">
+      <option name="closed" value="true" />
+      <created>1710687896415</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710687896415</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: remove annoying background">
+      <option name="closed" value="true" />
+      <created>1710687984356</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710687984356</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +237,8 @@
     <MESSAGE value="feat: base components" />
     <MESSAGE value="feat: dark mode button and style" />
     <MESSAGE value="feat: burger menu for mobile display" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: burger menu for mobile display" />
+    <MESSAGE value="feat: featured post" />
+    <MESSAGE value="feat: remove annoying background" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: remove annoying background" />
   </component>
 </project>
