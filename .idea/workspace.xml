@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: login page ui">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="refactor: change the name of some components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blogPage.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/login/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/login/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/loginPage.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="28764000" />
+      <workItem from="1710606282476" duration="29306000" />
     </task>
     <task id="LOCAL-00001" summary="update dependencies">
       <option name="closed" value="true" />
@@ -316,14 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710773392208</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="refactor: change the name of some components">
+      <option name="closed" value="true" />
+      <created>1710777029845</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710777029845</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: import antd and quasar" />
     <MESSAGE value="feat: styling and usage for a user icon" />
     <MESSAGE value="feat: nav active" />
     <MESSAGE value="first commit" />
@@ -348,6 +351,7 @@
     <MESSAGE value="feat: comments ui" />
     <MESSAGE value="fix: small bugs" />
     <MESSAGE value="feat: login page ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: login page ui" />
+    <MESSAGE value="refactor: change the name of some components" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: change the name of some components" />
   </component>
 </project>
