@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: Page ui">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="fix: small bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[slug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[slug]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/adrienhq/Dev/react-blog/src/components/comments",
+    "last_opened_file_path": "/home/adrienhq/Dev/react-blog/src/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/components/comments" />
       <recent name="$PROJECT_DIR$/src/app/[slug]" />
       <recent name="$PROJECT_DIR$/src/app/blog" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/themeToggle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Navbar" />
@@ -88,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="26986000" />
+      <workItem from="1710606282476" duration="28001000" />
     </task>
     <task id="LOCAL-00001" summary="update dependencies">
       <option name="closed" value="true" />
@@ -290,7 +288,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710763029862</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: comments ui">
+      <option name="closed" value="true" />
+      <created>1710772383498</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710772383498</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix: small bugs">
+      <option name="closed" value="true" />
+      <created>1710772395898</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710772395898</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +334,8 @@
     <MESSAGE value="feat: add sass" />
     <MESSAGE value="feat: singlePage sass" />
     <MESSAGE value="feat: Page ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Page ui" />
+    <MESSAGE value="feat: comments ui" />
+    <MESSAGE value="fix: small bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: small bugs" />
   </component>
 </project>
