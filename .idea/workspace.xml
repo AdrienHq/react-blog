@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: add react-quill">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/authLinks/AuthLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/authLinks/AuthLinks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/providers/ThemeProvider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/ThemeProvider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/ThemeContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/ThemeContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/adrienhq/Dev/react-blog/src/app",
+    "last_opened_file_path": "/home/adrienhq/Dev/react-blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,15 +66,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/components/comments" />
       <recent name="$PROJECT_DIR$/src/app/[slug]" />
       <recent name="$PROJECT_DIR$/src/app/blog" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Navbar" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components/Navbar" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -87,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="32293000" />
+      <workItem from="1710606282476" duration="36961000" />
     </task>
     <task id="LOCAL-00001" summary="update dependencies">
       <option name="closed" value="true" />
@@ -329,15 +337,29 @@
       <option name="project" value="LOCAL" />
       <updated>1710777586357</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feat: text editor">
+      <option name="closed" value="true" />
+      <created>1710781918331</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710781918331</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: images">
+      <option name="closed" value="true" />
+      <created>1710782623828</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710782623828</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: nav active" />
-    <MESSAGE value="first commit" />
     <MESSAGE value="feat: base layout" />
     <MESSAGE value="feat: config" />
     <MESSAGE value="feat: navbar base" />
@@ -361,6 +383,8 @@
     <MESSAGE value="feat: login page ui" />
     <MESSAGE value="refactor: change the name of some components" />
     <MESSAGE value="feat: add react-quill" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add react-quill" />
+    <MESSAGE value="feat: text editor" />
+    <MESSAGE value="feat: images" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: images" />
   </component>
 </project>
