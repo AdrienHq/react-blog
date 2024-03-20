@@ -17,7 +17,7 @@ const WritePage = () => {
     const [value, setValue] = useState("");
 
     useEffect(() => {
-        if (status === "authenticated") {
+        if (status === "unauthenticated") {
             router.push("/");
         }
     }, [status, router]);
