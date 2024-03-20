@@ -4,6 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Card = ({key, item}) => {
+    const date = new Date(item.createdAt);
+
+    const day = date.getDate().toString().padStart(2, '0');
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const year = date.getFullYear();
+
+    const europeanDate = `${day}/${month}/${year}`;
+
     return (
         <div className={styles.container} key={key}>
             <div className={styles.imageContainer}>
@@ -11,8 +19,8 @@ const Card = ({key, item}) => {
             </div>
             <div className={styles.textContainer}>
                 <div className={styles.detail}>
-                    <span className={styles.date}>21.10.92 - </span>
-                    <span className={styles.category}>Food</span>
+                    <span className={styles.date}>{europeanDate} - </span>
+                    <span className={styles.category}>{item.catSlug}</span>
                 </div>
                 <Link href="/">
                     <h1 className={styles.title}>{item.title}</h1>
