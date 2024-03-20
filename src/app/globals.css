@@ -1,8 +1,8 @@
 :root {
-    --bg: #D9D9D9;
-    --textcolor: black;
-    --softBg: white;
-    --softTextColor: grey;
+    --bg: white;
+    --textColor: black;
+    --softBg: #f0f0f0;
+    --softTextColor: #626262;
 }
 
 * {
@@ -23,22 +23,22 @@ a {
 
 .dark {
     --bg: #0f172a;
-    --textcolor: #ddd;
+    --textColor: #ddd;
     --softBg: #1f273a;
-    --softTextColor: #a6a6ab;
+    --softTextColor: #a6a6a6;
 }
 
 .light {
-    --bg: #D9D9D9;
-    --textcolor: black;
-    --softBg: white;
-    --softTextColor: grey;
+    --bg: white;
+    --textColor: black;
+    --softBg: #f0f0f0;
+    --softTextColor: #626262;
 }
 
 .container {
     min-height: 100vh;
     background-color: var(--bg);
-    color: var(--textcolor);
+    color: var(--textColor);
 }
 
 .wrapper {
@@ -50,46 +50,37 @@ a {
 }
 
 @media screen and (max-width: 1536px) {
-
     .wrapper {
         max-width: 1366px;
     }
 }
-
 @media screen and (max-width: 1280px) {
-
     .wrapper {
         max-width: 1024px;
     }
 }
-
 @media screen and (max-width: 1024px) {
-
     .wrapper {
         max-width: 768px;
         padding-left: 40px;
         padding-right: 40px;
     }
 }
-
 @media screen and (max-width: 768px) {
-
     .wrapper {
         max-width: 640px;
     }
 }
-
 @media screen and (max-width: 640px) {
-
     .wrapper {
         max-width: 475px;
     }
 }
 
-.ql-container {
+.ql-container{
     font-size: 28px !important;
 }
 
-.quill > .ql-container > .ql-editor.ql-blank::before {
-    color: darkgrey;
+.quill > .ql-container > .ql-editor.ql-blank::before{
+    color: #b3b3b1;
 }

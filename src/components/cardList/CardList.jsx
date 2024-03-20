@@ -18,7 +18,7 @@ const getData = async (page, cat) => {
         throw new Error("Failed");
     }
     return res.json();
-}
+};
 
 const CardList = async ({page, cat}) => {
 
