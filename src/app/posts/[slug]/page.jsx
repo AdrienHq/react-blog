@@ -26,6 +26,14 @@ const SinglePage = async ({params}) => {
 
     const data = await getData(slug);
 
+    const date = new Date(data.createdAt);
+
+    const day = date.getDate().toString().padStart(2, '0');
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const year = date.getFullYear();
+
+    const europeanDate = `${day}/${month}/${year}`;
+
     return (
         <div className={styles.container}>
             <div className={styles.infoContainer}>
@@ -34,14 +42,14 @@ const SinglePage = async ({params}) => {
                         {data?.title}
                     </h1>
                     <div className={styles.user}>
-
-                        <div className={styles.userImageContainer}>
-                            <Image src="/p1.jpeg" alt="" fill className={styles.avatar}/>
-                        </div>
-
+                        {data?.user?.img &&
+                            <div className={styles.userImageContainer}>
+                                <Image src={data.user.img} alt="" fill className={styles.avatar}/>
+                            </div>
+                        }
                         <div className={styles.userTextContainer}>
-                            <span className={styles.username}>User Name</span>
-                            <span className={styles.date}>12.23.34</span>
+                            <span className={styles.username}>{data?.user.name}</span>
+                            <span className={styles.date}>{europeanDate}</span>
                         </div>
                     </div>
                 </div>
