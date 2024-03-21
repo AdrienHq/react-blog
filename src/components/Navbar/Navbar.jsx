@@ -14,9 +14,10 @@ const Navbar = () => {
                 <Image src="/tiktok.png" alt="tiktok" width={24} height={24}/>
                 <Image src="/youtube.png" alt="youtube" width={24} height={24}/>
             </div>
-            <div className={styles.logo}>React Blog</div>
+            <div className={styles.logo}>
+                <Link href="/">React Blog</Link>
+            </div>
             <div className={styles.links}>
-                <Link href="/" className={styles.link}>Homepage</Link>
                 <Link href="/" className={styles.link}>Contact</Link>
                 <Link href="/" className={styles.link}>About</Link>
                 <AuthLinks/>
