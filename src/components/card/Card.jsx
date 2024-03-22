@@ -10,6 +10,7 @@ const Card = ({key, item}) => {
     const year = date.getFullYear();
     const europeanDate = `${day}/${month}/${year}`;
 
+    const baseURL = process.env.NEXT_PUBLIC_BASE_URL || process.env.BASE_URL;
     return (
         <div className={styles.container} key={key}>
             {item.img && (
@@ -22,13 +23,13 @@ const Card = ({key, item}) => {
                     <span className={styles.date}>{europeanDate} - </span>
                     <span className={styles.category}>{item.catSlug}</span>
                 </div>
-                <Link href="/">
+                <Link href={`${baseURL}/posts/${item.slug}`}>
                     <h1 className={styles.title}>{item.title}</h1>
                 </Link>
                 <p className={styles.desc}>
-                    {item.desc.substring(0, 60)}
+                    {item.desc.substring(0, 320)} ...
                 </p>
-                <Link href={`/posts/`} className={styles.linkUrl}>
+                <Link href={`${baseURL}/posts/${item.slug}`} className={styles.linkUrl}>
                     Read More
                 </Link>
             </div>
