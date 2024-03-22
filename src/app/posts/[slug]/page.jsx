@@ -5,8 +5,9 @@ import Image from "next/image";
 import Comments from "@/components/comments/Comments";
 
 const getData = async (slug) => {
-    //TODO POPULAR FILTER -> `http://localhost:3000/api/posts/${slug}?popular=true`
-    const res = await fetch(`http://localhost:3000/api/posts/${slug}`, {
+    const baseURL = process.env.NEXT_PUBLIC_BASE_URL || process.env.BASE_URL;
+    //TODO POPULAR FILTER -> `${baseUrl}api/posts/${slug}?popular=true`
+    const res = await fetch(`${baseURL}api/posts/${slug}`, {
         cache: "no-store",
     });
 

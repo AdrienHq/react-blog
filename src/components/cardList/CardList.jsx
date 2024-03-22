@@ -4,8 +4,9 @@ import Pagination from "@/components/pagination/Pagination";
 import Card from "@/components/card/Card";
 
 const getData = async (page, cat) => {
+    const baseURL = process.env.NEXT_PUBLIC_BASE_URL || process.env.BASE_URL;
     const res = await fetch(
-        `http://localhost:3000/api/posts?page=${page}&cat=${cat || ""}`,
+        `${baseURL}/api/posts?page=${page}&cat=${cat || ""}`,
         {
             cache: "no-store",
         }
