@@ -12,9 +12,6 @@ const getData = async (page, cat) => {
         }
     );
 
-    console.log('hello'); // Log the response
-    console.log(res); // Log the response
-
     if (!res.ok) {
         throw new Error("Failed");
     }
@@ -25,7 +22,7 @@ const CardList = async ({page, cat}) => {
 
     const {posts, count} = await getData(page, cat);
 
-    const POST_PER_PAGE = 2;
+    const POST_PER_PAGE = 4;
 
     const hasPrevious = POST_PER_PAGE * (page - 1) > 0;
     const hasNext = POST_PER_PAGE * (page - 1) + POST_PER_PAGE < count;
