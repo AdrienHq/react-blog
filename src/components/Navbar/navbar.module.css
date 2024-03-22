@@ -1,26 +1,32 @@
 .container {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    background-color: var(--bg);
+    z-index: 999;
 }
 
-.social {
-    display: flex;
-    gap: 10px;
-    flex: 1;
-}
+/*.social {*/
+/*    display: flex;*/
+/*    gap: 10px;*/
+/*    flex: 1;*/
+/*}*/
 
 .logo {
     flex: 1;
-    text-align: center;
+    text-align: left;
     font-size: 36px;
     font-weight: bold;
+    z-index: 1;
 }
 
 .links {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: 20px;
     flex: 1;
     font-size: 20px;
