@@ -20,6 +20,7 @@ const Featured = ({searchParams}) => {
                     </div>
                     <div className={styles.textContainer}>
                         <h1 className={styles.postTitle}>
+                            {/*{item.desc.substring(0, 60)}*/}
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, at delectus ducimus ea earum eligendi eos est eum excepturi exercitationem magnam minus nam nemo nihil obcaecati omnis pariatur quaerat qui reiciendis rerum suscipit tempore vel vero vitae voluptatem. A eius inventore ipsa magni sapiente vero. Alias asperiores aspernatur beatae corporis cum deleniti dignissimos doloribus dolorum eius esse et excepturi expedita ipsa labore libero mollitia odio pariatur placeat quia quidem reiciendis similique sunt suscipit tempora, tempore tenetur, totam? Accusantium assumenda corporis culpa delectus deserunt dolores enim, ipsum maxime modi odio quaerat quasi quo reprehenderit saepe tenetur! Cum dignissimos error est modi.
                         </h1>
                         <p className={styles.postDesc}></p>
