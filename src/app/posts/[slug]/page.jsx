@@ -7,7 +7,7 @@ import Comments from "@/components/comments/Comments";
 const getData = async (slug) => {
     const baseURL = process.env.NEXT_PUBLIC_BASE_URL || process.env.BASE_URL;
     //TODO POPULAR FILTER -> `${baseUrl}api/posts/${slug}?popular=true`
-    const res = await fetch(`${baseURL}api/posts/${slug}`, {
+    const res = await fetch(`${baseURL}/api/posts/${slug}`, {
         cache: "no-store",
     });
 
