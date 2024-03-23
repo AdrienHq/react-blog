@@ -68,3 +68,17 @@
         display: none;
     }
 }
+
+.dropdown{
+    justify-content: space-between;
+
+}
+
+
+.dropdownItem {
+    color: yellow;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-left: 40px;
+
+}
