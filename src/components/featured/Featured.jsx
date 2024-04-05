@@ -16,7 +16,7 @@ const Featured = ({searchParams}) => {
             <div className={styles.post}>
                 <div className={styles.featuredPostContainer}>
                     <div className={styles.imageContainer}>
-                        <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
+                        <Image src="/p1.jpg" alt="" fill className={styles.image}/>
                     </div>
                     <div className={styles.textContainer}>
                         <h1 className={styles.postTitle}>

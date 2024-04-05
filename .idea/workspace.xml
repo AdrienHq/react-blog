@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: images">
+    <list default="true" id="7d02829c-58cc-4951-9d02-f62699b74f0a" name="Changes" comment="feat: better button placement">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/login/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/authLinks/AuthLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/authLinks/AuthLinks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/providers/ThemeProvider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/ThemeProvider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/ThemeContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/ThemeContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/write/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/write/page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,14 +46,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/adrienhq/Dev/react-blog",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/adrienhq/Dev/react-blog/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/snap/phpstorm/376/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/snap/phpstorm/385/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,13 +69,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/app/api/comments" />
+      <recent name="$PROJECT_DIR$/src/app/api/posts/[slug]" />
+      <recent name="$PROJECT_DIR$/src/app/api" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/app" />
-      <recent name="$PROJECT_DIR$/src/components/comments" />
-      <recent name="$PROJECT_DIR$/src/app/[slug]" />
-      <recent name="$PROJECT_DIR$/src/app/blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/posts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public" />
@@ -82,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.15026.12" />
       </set>
     </attachedChunks>
   </component>
@@ -95,223 +99,16 @@
       <option name="presentableId" value="Default" />
       <updated>1710595687084</updated>
       <workItem from="1710595688125" duration="9247000" />
-      <workItem from="1710606282476" duration="36961000" />
-    </task>
-    <task id="LOCAL-00001" summary="update dependencies">
-      <option name="closed" value="true" />
-      <created>1710597330119</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1710597330119</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: import antd and quasar">
-      <option name="closed" value="true" />
-      <created>1710599790026</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1710599790026</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat: styling and usage for a user icon">
-      <option name="closed" value="true" />
-      <created>1710599809871</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1710599809871</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: nav active">
-      <option name="closed" value="true" />
-      <created>1710605173809</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1710605173809</updated>
-    </task>
-    <task id="LOCAL-00005" summary="first commit">
-      <option name="closed" value="true" />
-      <created>1710606387910</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1710606387910</updated>
-    </task>
-    <task id="LOCAL-00006" summary="first commit">
-      <option name="closed" value="true" />
-      <created>1710606395783</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1710606395783</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat: base layout">
-      <option name="closed" value="true" />
-      <created>1710669140324</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1710669140324</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat: config">
-      <option name="closed" value="true" />
-      <created>1710669157835</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1710669157835</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat: navbar base">
-      <option name="closed" value="true" />
-      <created>1710669694142</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1710669694142</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat: footer base">
-      <option name="closed" value="true" />
-      <created>1710669722367</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1710669722367</updated>
-    </task>
-    <task id="LOCAL-00011" summary="feat: base components">
-      <option name="closed" value="true" />
-      <created>1710671259840</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1710671259840</updated>
-    </task>
-    <task id="LOCAL-00012" summary="feat: base components">
-      <option name="closed" value="true" />
-      <created>1710677546779</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677546779</updated>
-    </task>
-    <task id="LOCAL-00013" summary="feat: dark mode button and style">
-      <option name="closed" value="true" />
-      <created>1710677563139</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677563139</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat: burger menu for mobile display">
-      <option name="closed" value="true" />
-      <created>1710684997511</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1710684997511</updated>
-    </task>
-    <task id="LOCAL-00015" summary="feat: featured post">
-      <option name="closed" value="true" />
-      <created>1710687896415</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1710687896415</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat: remove annoying background">
-      <option name="closed" value="true" />
-      <created>1710687984356</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1710687984356</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat: categories UI">
-      <option name="closed" value="true" />
-      <created>1710689168809</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1710689168809</updated>
-    </task>
-    <task id="LOCAL-00018" summary="feat: post card UI">
-      <option name="closed" value="true" />
-      <created>1710692298674</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1710692298674</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat: right side menu">
-      <option name="closed" value="true" />
-      <created>1710761353112</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1710761353112</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat: pagination button">
-      <option name="closed" value="true" />
-      <created>1710761361999</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1710761361999</updated>
-    </task>
-    <task id="LOCAL-00021" summary="feat: navbar ui">
-      <option name="closed" value="true" />
-      <created>1710761373618</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1710761373618</updated>
-    </task>
-    <task id="LOCAL-00022" summary="feat: footer ui">
-      <option name="closed" value="true" />
-      <created>1710761536918</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1710761536918</updated>
-    </task>
-    <task id="LOCAL-00023" summary="feat: add sass">
-      <option name="closed" value="true" />
-      <created>1710762651214</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1710762651214</updated>
-    </task>
-    <task id="LOCAL-00024" summary="feat: singlePage sass">
-      <option name="closed" value="true" />
-      <created>1710763012383</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1710763012383</updated>
-    </task>
-    <task id="LOCAL-00025" summary="feat: Page ui">
-      <option name="closed" value="true" />
-      <created>1710763029862</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1710763029862</updated>
-    </task>
-    <task id="LOCAL-00026" summary="feat: comments ui">
-      <option name="closed" value="true" />
-      <created>1710772383498</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1710772383498</updated>
-    </task>
-    <task id="LOCAL-00027" summary="fix: small bugs">
-      <option name="closed" value="true" />
-      <created>1710772395898</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1710772395898</updated>
+      <workItem from="1710606282476" duration="80716000" />
+      <workItem from="1711104940493" duration="524000" />
+      <workItem from="1711105666107" duration="18166000" />
+      <workItem from="1711204959486" duration="5817000" />
+      <workItem from="1711214227648" duration="10000" />
+      <workItem from="1711272588625" duration="609000" />
+      <workItem from="1711361195793" duration="218000" />
+      <workItem from="1711361669595" duration="23000" />
+      <workItem from="1711371884640" duration="25000" />
+      <workItem from="1712318519739" duration="595000" />
     </task>
     <task id="LOCAL-00028" summary="feat: login page ui">
       <option name="closed" value="true" />
@@ -353,38 +150,390 @@
       <option name="project" value="LOCAL" />
       <updated>1710782623828</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: add next-auth">
+      <option name="closed" value="true" />
+      <created>1710846238752</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710846238752</updated>
+    </task>
+    <task id="LOCAL-00034" summary="refactor: move provider directory">
+      <option name="closed" value="true" />
+      <created>1710846260076</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710846260076</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: implement authentification with google api call">
+      <option name="closed" value="true" />
+      <created>1710846291428</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710846291428</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix: fix little login console error">
+      <option name="closed" value="true" />
+      <created>1710856997140</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710856997140</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: setup prisma + usage">
+      <option name="closed" value="true" />
+      <created>1710860106063</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1710860106063</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: new schema Post / Comment / Category">
+      <option name="closed" value="true" />
+      <created>1710862959863</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1710862959863</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: categories api GET">
+      <option name="closed" value="true" />
+      <created>1710865279090</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1710865279090</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: category api implementation">
+      <option name="closed" value="true" />
+      <created>1710865295093</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1710865295093</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: prisma post schema">
+      <option name="closed" value="true" />
+      <created>1710929542486</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710929542486</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: post api GET">
+      <option name="closed" value="true" />
+      <created>1710929557242</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710929557242</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat: render api result to homepage">
+      <option name="closed" value="true" />
+      <created>1710929571481</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710929571481</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: pagination for posts">
+      <option name="closed" value="true" />
+      <created>1710932656212</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710932656212</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: use data from api and format date">
+      <option name="closed" value="true" />
+      <created>1710934283246</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710934283246</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: api get to filter by category">
+      <option name="closed" value="true" />
+      <created>1710934305831</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1710934305831</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: some style">
+      <option name="closed" value="true" />
+      <created>1710934313829</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1710934313829</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: design and data">
+      <option name="closed" value="true" />
+      <created>1710937332968</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1710937332968</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: Api get single post">
+      <option name="closed" value="true" />
+      <created>1710942740990</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942740990</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat: get user info">
+      <option name="closed" value="true" />
+      <created>1710943730996</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943730996</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix: resolve error with the local storage">
+      <option name="closed" value="true" />
+      <created>1710943759344</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943759344</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix: type img -&gt; image">
+      <option name="closed" value="true" />
+      <created>1710943897279</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943897279</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat: add swr">
+      <option name="closed" value="true" />
+      <created>1710944496454</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1710944496454</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat: api get comments for a post">
+      <option name="closed" value="true" />
+      <created>1710948803240</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1710948803240</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat: api POST a comment for a post">
+      <option name="closed" value="true" />
+      <created>1710950748915</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950748915</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix: wrong redirection">
+      <option name="closed" value="true" />
+      <created>1710950876426</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950876426</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat: api POST a post">
+      <option name="closed" value="true" />
+      <created>1710955643816</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1710955643816</updated>
+    </task>
+    <task id="LOCAL-00058" summary="feat: add firebase">
+      <option name="closed" value="true" />
+      <created>1710955798527</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1710955798528</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: firebase config">
+      <option name="closed" value="true" />
+      <created>1711039057855</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1711039057855</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fix: API POST for a post">
+      <option name="closed" value="true" />
+      <created>1711039110944</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1711039110944</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: logic to use firebase for upload image and post the post">
+      <option name="closed" value="true" />
+      <created>1711039142436</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1711039142436</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat: ui modification">
+      <option name="closed" value="true" />
+      <created>1711039153508</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1711039153508</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat: better navbar">
+      <option name="closed" value="true" />
+      <created>1711040464049</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1711040464049</updated>
+    </task>
+    <task id="LOCAL-00064" summary="feat: count views per posts">
+      <option name="closed" value="true" />
+      <created>1711041347002</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1711041347002</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat: schema update isFeatured">
+      <option name="closed" value="true" />
+      <created>1711041359238</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1711041359238</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix: nullable variable">
+      <option name="closed" value="true" />
+      <created>1711041507572</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1711041507572</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: better UI WIP">
+      <option name="closed" value="true" />
+      <created>1711108143527</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1711108143527</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat: base url in .env">
+      <option name="closed" value="true" />
+      <created>1711112369581</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1711112369581</updated>
+    </task>
+    <task id="LOCAL-00069" summary="feat: Api get a collection of post ordered by number of views">
+      <option name="closed" value="true" />
+      <created>1711125871063</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125871063</updated>
+    </task>
+    <task id="LOCAL-00070" summary="refactor: suppress inline">
+      <option name="closed" value="true" />
+      <created>1711125904024</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125904024</updated>
+    </task>
+    <task id="LOCAL-00071" summary="feat: more page retrieved">
+      <option name="closed" value="true" />
+      <created>1711125939484</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125939484</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix: missing const">
+      <option name="closed" value="true" />
+      <created>1711125963106</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125963106</updated>
+    </task>
+    <task id="LOCAL-00073" summary="fix: api ordered collection of posts">
+      <option name="closed" value="true" />
+      <created>1711125985859</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125985859</updated>
+    </task>
+    <task id="LOCAL-00074" summary="fix: usage of posts data + style">
+      <option name="closed" value="true" />
+      <created>1711126001795</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1711126001796</updated>
+    </task>
+    <task id="LOCAL-00075" summary="fix: we don´t need that">
+      <option name="closed" value="true" />
+      <created>1711126736908</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1711126736909</updated>
+    </task>
+    <task id="LOCAL-00076" summary="feat: better button placement">
+      <option name="closed" value="true" />
+      <created>1711207153304</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1711207153304</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: base layout" />
-    <MESSAGE value="feat: config" />
-    <MESSAGE value="feat: navbar base" />
-    <MESSAGE value="feat: footer base" />
-    <MESSAGE value="feat: base components" />
-    <MESSAGE value="feat: dark mode button and style" />
-    <MESSAGE value="feat: burger menu for mobile display" />
-    <MESSAGE value="feat: featured post" />
-    <MESSAGE value="feat: remove annoying background" />
-    <MESSAGE value="feat: categories UI" />
-    <MESSAGE value="feat: post card UI" />
-    <MESSAGE value="feat: right side menu" />
-    <MESSAGE value="feat: pagination button" />
-    <MESSAGE value="feat: navbar ui" />
-    <MESSAGE value="feat: footer ui" />
-    <MESSAGE value="feat: add sass" />
-    <MESSAGE value="feat: singlePage sass" />
-    <MESSAGE value="feat: Page ui" />
-    <MESSAGE value="feat: comments ui" />
-    <MESSAGE value="fix: small bugs" />
-    <MESSAGE value="feat: login page ui" />
-    <MESSAGE value="refactor: change the name of some components" />
-    <MESSAGE value="feat: add react-quill" />
-    <MESSAGE value="feat: text editor" />
-    <MESSAGE value="feat: images" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: images" />
+    <MESSAGE value="fix: type img -&gt; image" />
+    <MESSAGE value="feat: add swr" />
+    <MESSAGE value="feat: api get comments for a post" />
+    <MESSAGE value="feat: api POST a comment for a post" />
+    <MESSAGE value="fix: wrong redirection" />
+    <MESSAGE value="feat: api POST a post" />
+    <MESSAGE value="feat: add firebase" />
+    <MESSAGE value="feat: firebase config" />
+    <MESSAGE value="fix: API POST for a post" />
+    <MESSAGE value="feat: logic to use firebase for upload image and post the post" />
+    <MESSAGE value="feat: ui modification" />
+    <MESSAGE value="feat: better navbar" />
+    <MESSAGE value="feat: count views per posts" />
+    <MESSAGE value="feat: schema update isFeatured" />
+    <MESSAGE value="fix: nullable variable" />
+    <MESSAGE value="feat: better UI WIP" />
+    <MESSAGE value="feat: base url in .env" />
+    <MESSAGE value="feat: Api get a collection of post ordered by number of views" />
+    <MESSAGE value="refactor: suppress inline" />
+    <MESSAGE value="feat: more page retrieved" />
+    <MESSAGE value="fix: missing const" />
+    <MESSAGE value="fix: api ordered collection of posts" />
+    <MESSAGE value="fix: usage of posts data + style" />
+    <MESSAGE value="fix: we don´t need that" />
+    <MESSAGE value="feat: better button placement" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: better button placement" />
   </component>
 </project>
